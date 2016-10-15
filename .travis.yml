@@ -1,9 +1,7 @@
 language: scala
 script:
-- sbt ++2.11.5 readme/run
-- sbt ++$TRAVIS_SCALA_VERSION scalatagsJVM/test scalatagsJS/test
+- sbt scalatags/compile
 scala:
-  - 2.10.4
-  - 2.11.4
   - 2.11.8
+  - 2.12.0-RC1
 sudo: false
