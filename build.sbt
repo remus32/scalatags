@@ -11,8 +11,3 @@ lazy val scalatags = project
       "org.scala-lang.modules" %% "scala-xml" % "1.0.1" % "test"
     )
   )
-
-
-// Needed, so sbt finds the projects
-lazy val scalatagsJVM = scalatags.jvm
-lazy val scalatagsJS = scalatags.js
