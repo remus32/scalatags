@@ -7,7 +7,6 @@ lazy val scalatags = project
     scalaVersion := "2.12.0-RC1",
     autoCompilerPlugins := true,
     libraryDependencies ++= Seq(
-      "org.scala-lang" % "scala-reflect" % scalaVersion.value % "provided",
-      "org.scala-lang.modules" %% "scala-xml" % "1.0.1" % "test"
+      "org.scala-lang" % "scala-reflect" % scalaVersion.value % "provided"
     )
   )
